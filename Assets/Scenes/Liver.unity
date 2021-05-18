@@ -4110,7 +4110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 664004336}
-  targetOffset: {x: 0, y: -3.3, z: 0}
+  targetOffset: {x: -0.05, y: -3.3, z: 0}
   distance: 5
   maxDistance: 20
   minDistance: 0.6

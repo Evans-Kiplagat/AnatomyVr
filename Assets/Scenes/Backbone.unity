@@ -293,6 +293,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1096357818947501193, guid: c45cccd1a60a7a84a874b0a05c5927e2,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 473247295}
+    - target: {fileID: 1096357818947501193, guid: c45cccd1a60a7a84a874b0a05c5927e2,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleVr
+      objectReference: {fileID: 0}
     - target: {fileID: 6228700276898327157, guid: c45cccd1a60a7a84a874b0a05c5927e2,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -445,6 +455,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01a633bc2047d974c99f45679bd84a60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &473247295 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2701693749404833524, guid: c45cccd1a60a7a84a874b0a05c5927e2,
+    type: 3}
+  m_PrefabInstance: {fileID: 473247293}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c725cbd5b98f543ac5c8d312810f62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &534493572 stripped

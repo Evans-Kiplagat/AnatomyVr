@@ -269,4 +269,58 @@ public class SceneManeger : MonoBehaviour
             yield return null;
         }
     }
+
+    public void Trunk()
+    {
+        StartCoroutine(SceneTrunk());
+    }
+    IEnumerator SceneTrunk()
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync("Trunk");
+        LoadingScreen.SetActive(true);
+
+        while (!operation.isDone)
+        {
+            float progress = Mathf.Clamp01(operation.progress / .9f);
+            slider.value = progress;
+
+            yield return null;
+        }
+    }
+
+    public void legs()
+    {
+        StartCoroutine(Scenelegs());
+    }
+    IEnumerator Scenelegs()
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync("Lower_ribs");
+        LoadingScreen.SetActive(true);
+
+        while (!operation.isDone)
+        {
+            float progress = Mathf.Clamp01(operation.progress / .9f);
+            slider.value = progress;
+
+            yield return null;
+        }
+    }
+
+    public void Head()
+    {
+        StartCoroutine(SceneUpper());
+    }
+    IEnumerator SceneUpper()
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync("Upper_ribs");
+        LoadingScreen.SetActive(true);
+
+        while (!operation.isDone)
+        {
+            float progress = Mathf.Clamp01(operation.progress / .9f);
+            slider.value = progress;
+
+            yield return null;
+        }
+    }
 }

@@ -9,6 +9,30 @@ EditorBuildSettings:
     path: Assets/Scenes/Home.unity
     guid: e4d3efdb7dcadec42b960fc67a890290
   - enabled: 1
+    path: Assets/Scenes/Trunk.unity
+    guid: d8c394bf5ce2dc54d9c61833e6f2a072
+  - enabled: 1
+    path: Assets/Scenes/Lungs.unity
+    guid: 99e5e33c968490f4aa180227ab8f9c39
+  - enabled: 1
+    path: Assets/Scenes/Heart.unity
+    guid: cab3699dbc08d1448861cd65c2d1a656
+  - enabled: 1
     path: Assets/Scenes/Brain.unity
     guid: e890f2eec7dbfa642aa6a0797f929ada
+  - enabled: 1
+    path: Assets/Scenes/Lower_ribs.unity
+    guid: 5157d42594c0a3a4a847be0355b2aa57
+  - enabled: 1
+    path: Assets/Scenes/Liver.unity
+    guid: fcf33ed1f9e47a9459fb403adfad6f37
+  - enabled: 1
+    path: Assets/Scenes/Colon.unity
+    guid: 11e56af9ecf94814fa7eb3800a478617
+  - enabled: 1
+    path: Assets/Scenes/Upper_Ribs.unity
+    guid: af114683fbd395341af1f13e7aeea881
+  - enabled: 1
+    path: Assets/Scenes/stomach.unity
+    guid: 203c1b8b702a22449950a8bfc67bc1bb
   m_configObjects: {}
