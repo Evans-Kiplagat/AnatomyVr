@@ -1171,7 +1171,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 7427b2fd4df134344af7da5a8b63c95c,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -816922529152700253, guid: 7427b2fd4df134344af7da5a8b63c95c,
         type: 3}
@@ -2058,7 +2058,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 2.3509887e-38, z: 3.518974e+13, w: 1.2325952e-32}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -2274,7 +2274,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 1.83672e-40, w: -2.26e-43}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -2299,6 +2299,86 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8941540260419504430, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8623442358099784360, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8328180908711284112, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Proximal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8247196703557816018, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Superior_mesenteric_vein1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8199624049893080601, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7870423959068753487, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7663770575554162607, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7320733083324617938, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Right_external_iliac_vein1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6486793793424889454, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Proximal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6390684362663304991, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Right_testicular_vein1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5749613584990589562, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Superior_mesenteric_vein1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5611836324661600473, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5111770713701493625, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Ascending_lumbar_vein1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4974165248406778602, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Duodenum1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4521720553161893761, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Proximal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4448845078368023109, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Descending_aorta1:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a6c3df719045c164aaa28245914f669d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2369,10 +2449,285 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.45
       objectReference: {fileID: 0}
+    - target: {fileID: -4215409699479371963, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle_part_of_jejunum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4157194594419654251, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Proximal_part_of_jejunum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3379065559582543341, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_jejunum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3112008176387103196, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2576450247566112796, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Trunk_of_superior_rectal_artery1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2349169464925126646, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2328862490529135906, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: FDescending_colon1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2181335553595568709, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Right_common_iliac_vein1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1871321983168139977, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1283388268214191206, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1193279945838384736, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Splenic_artery1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1066922762691889528, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1061901688147311109, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: a6c3df719045c164aaa28245914f669d,
         type: 3}
       propertyPath: m_Name
       value: clon
+      objectReference: {fileID: 0}
+    - target: {fileID: -873598632792732288, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_jejunum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -435612032107765035, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Left_subcostal_vein1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -433802262077880132, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -358696631887263566, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Right_common_iliac_vein1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -79171905804701227, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 340982805525611779, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Proximal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 696753192102616671, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Lumbar_vein1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1050415973570412590, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Right_common_iliac_vein1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108605168010249781, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Proximal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835389784613257565, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_jejunum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1857238711688302372, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179745634076521739, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_jejunum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2251640084928460149, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Transverse_colon1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2429762124040664770, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Trunk_of_superior_mesenteric_artery1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2486118131667879393, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Right_superior_epigastric_vein1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2744057388478345474, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle_part_of_jejunum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3285548412144789492, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Right_testicular_artery1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585125022604199865, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle_part_of_jejunum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629621485392320682, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Lumbar_artery1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262390647993818916, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle_part_of_jejunum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4263026326742274684, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Skin_of_umbilicus:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384741533413180780, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Proximal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4763517455704061457, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Superior_mesenteric_vein1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4943668219970758309, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Proximal_part_of_jejunum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5313847891208226895, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540578659966538874, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Left_subcostal_artery1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746285476489843593, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_jejunum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5879823238968593241, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Proximal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5904142473592390004, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Proximal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5934788325753821642, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Proximal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6287994596174124748, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294324180085868918, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Inferior_vena_cava1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326879039696032567, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Splenic_vein1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371596251590276530, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Proximal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7387512237608916553, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582780259316064391, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_jejunum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7741956272516969281, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_jejunum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7756575045630845877, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132051546201697324, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Ascending_colon1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396828269014148895, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Lumbar_vein1:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8581624540834400511, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Distal_part_of_ileum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9034621794180128368, guid: a6c3df719045c164aaa28245914f669d,
+        type: 3}
+      propertyPath: m_Name
+      value: Ileal_branch_of_inferior_branch_of_ileocolic_artery1:grp1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6c3df719045c164aaa28245914f669d, type: 3}

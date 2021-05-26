@@ -729,6 +729,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9b95d07499185b4e911717bdf769534, type: 3}
+--- !u!4 &436608615 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d9b95d07499185b4e911717bdf769534,
+    type: 3}
+  m_PrefabInstance: {fileID: 436608614}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &476074259 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: fe63ea801abd00048869747eb0d226ea,
@@ -1292,12 +1298,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!4 &710896952 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 37c0c4c25ef36d24c8343fe5b1cf9a93,
-    type: 3}
-  m_PrefabInstance: {fileID: 863191615}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &733278063 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 348581699587826252, guid: fe63ea801abd00048869747eb0d226ea,
@@ -3678,7 +3678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32cba91d6533af441a41fb9669b53792, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 710896952}
+  target: {fileID: 436608615}
   targetOffset: {x: 0, y: -5.5, z: -5.8}
   distance: 5
   maxDistance: 20
@@ -4407,6 +4407,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8892572514219839062, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Right_anterior_cusp_of_pulmonary_valve:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: -8847022082223375412, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
@@ -4416,6 +4421,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Inferior_wall_of_left_ventricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8647299894112108604, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall_of_inflow_part_of_right_ventricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8283771219129463608, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Fibrous_ring_of_mitral_valve:grp1
       objectReference: {fileID: 0}
     - target: {fileID: -8010820159262493680, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
@@ -4427,20 +4442,65 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trunk_of_right_coronary_artery:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: -7953823030627999357, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Posterior_leaflet_of_tricuspid_valve:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7864574017512406606, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Right_anterior_semilunar_fibrous_scallop_of_pulmonary_valve_anulus:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: -7394921096020579142, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Trunk_of_circumflex_branch_of_left_coronary_artery:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7364805233378853644, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Atrioventricular_node:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7348014246421697458, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Anterior_cusp_of_aortic_valve:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7271851149388806003, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Anterior_internodal_tract:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7121382315213383149, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall_of_bulb_of_aorta:grp1
       objectReference: {fileID: 0}
     - target: {fileID: -7084641145589880245, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Anterior_septal_branch_of_anterior_interventricular_artery:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: -7067073184641291806, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Valve_of_coronary_sinus:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: -6921362379190020153, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Left_anterior_cusp_of_pulmonary_valve:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6891339018824671477, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Anterior_atrial_branch_of_right_coronary_artery:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6834358621697503139, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Septal_limb_of_supraventricular_crest:grp1
       objectReference: {fileID: 0}
     - target: {fileID: -6418194107339169803, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
@@ -4457,15 +4517,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: Septal_wall_of_left_ventricle:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: -5683776497276220197, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Valve_of_inferior_vena_cava:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5393933583757166780, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Interatrial_septum:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: -5174018715390886681, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Septal_wall_of_left_ventricle:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: -5067738626736033078, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Anterior_cardiac_vein:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: -4926896681439509640, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Posterior_cusp_of_pulmonary_valve:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4346933348357380197, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall_of_inflow_part_of_right_ventricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4294863117559504721, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Fibrous_ring_of_aortic_valve:grp1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
@@ -4537,6 +4622,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.57193
       objectReference: {fileID: 0}
+    - target: {fileID: -4121123895341786917, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Ascending_aorta_proper:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3920166976417946215, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Anulus_proper_of_tricuspid_valve:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: -3615689881703239150, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
@@ -4546,6 +4641,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Anterior_septal_branch_of_anterior_interventricular_artery:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3154600719963054850, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Great_cardiac_vein:grp1
       objectReference: {fileID: 0}
     - target: {fileID: -3135935407588223186, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
@@ -4557,10 +4657,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trunk_of_posterior_interventricular_branch_of_left_coronary_artery:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: -3045845066689373685, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Right_marginal_vein:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2729801762633689365, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Fibrous_ring_of_mitral_valve:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2651260589410957775, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Fibrous_ring_of_mitral_valve:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: -2644292711047719275, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Trunk_of_circumflex_branch_of_left_coronary_artery:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2627144359830705778, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Muscular_part_of_interventricular_septum:grp1
       objectReference: {fileID: 0}
     - target: {fileID: -2594877337257322390, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
@@ -4597,15 +4717,50 @@ PrefabInstance:
       propertyPath: m_Name
       value: Posterior_wall_of_left_atrium:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: -1352461121804462049, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: posterior_semilunar_fibrous_scallop_of_aortic_valve_anulus:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1304037091159577606, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Interatrial_septum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1107093528548794680, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Trunk_of_right_coronary_artery:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034604338182469255, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Tendon_of_Todaro:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Heart
       objectReference: {fileID: 0}
+    - target: {fileID: -798145810068825131, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Fibrous_ring_of_aortic_valve:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: -105716546436330164, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Anterior_wall_proper_of_left_atrium:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -101824238662085350, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle_cardiac_vein:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: -99647008386821682, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Great_cardiac_vein:grp1
       objectReference: {fileID: 0}
     - target: {fileID: -39446066242666364, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
@@ -4617,15 +4772,65 @@ PrefabInstance:
       propertyPath: m_Name
       value: Anterior_wall_of_left_ventricle:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: 257683174858436879, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Left_anterior_semilunar_fibrous_scallop_of_pulmonary_valve_anulus:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: 263122371144899775, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Trunk_of_right_coronary_artery:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: 348581699587826252, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Septal_wall_of_right_atrium:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 796264379732393611, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Septal_papillary_muscle_of_right_ventricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 869690555279397110, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Mural_limb_of_supraventricular_crest:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: 967599322297453959, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Pulmonary_trunk_proper:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003117118600904091, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: eaflet_of_tricuspid_valve:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1036724787199890412, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Free_wall_of_left_ventricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1124483495959846463, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Septal_leaflet_of_tricuspid_valve:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180046324963065831, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Interatrial_septum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1243839007919173366, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall_of_left_auricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308052048885052872, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Stem_of_left_coronary_artery
       objectReference: {fileID: 0}
     - target: {fileID: 1510113171755251242, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
@@ -4647,30 +4852,85 @@ PrefabInstance:
       propertyPath: m_Name
       value: Diagonal_branch_of_anterior_descending_branch_of_left_coronary_artery:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: 2363645720733311689, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall_of_outflow_part_of_right_ventricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2614460774450765777, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Fibrous_ring_of_mitral_valve:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: 2712700028886634839, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Interatrial_septum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3161984251053589810, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Pectinate_muscle_of_right_auricle:grp1
       objectReference: {fileID: 0}
     - target: {fileID: 3243510343879068656, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Coronary_sinus:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: 3392546647273613264, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Muscular_part_of_interventricular_septum:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: 3746307322916527380, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Posterior_vein_of_left_ventricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763940634940461126, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall_of_right_auricle_proper:grp1
       objectReference: {fileID: 0}
     - target: {fileID: 4044480562910654109, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Inferior_wall_of_left_ventricle:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: 4050403669414713446, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Fibrous_ring_of_mitral_valve:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: 4236873876974133221, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Second_left_anterior_branch_of_anterior_interventricular_branch_of_left_coronary_artery:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285735854540906490, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Anterior_internodal_tract:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381022006879366643, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Superior_wall_of_left_atrium:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423929840110060649, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Atrioventricular_bundle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833514755712770292, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall_of_inflow_part_of_right_ventricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033373113030957421, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Lateral_wall_proper_of_right_atrium:grp1
       objectReference: {fileID: 0}
     - target: {fileID: 5127447172279923537, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
@@ -4682,35 +4942,115 @@ PrefabInstance:
       propertyPath: m_Name
       value: Anterior_atrial_branch_of_right_coronary_artery:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: 5938854834260691249, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Fibrous_ring_of_mitral_valve:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: 6140858822748611396, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Lateral_wall_of_left_ventricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6165772148423221929, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Crista_terminalis:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6178380301129424470, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Fibrous_ring_of_aortic_valve:grp1
       objectReference: {fileID: 0}
     - target: {fileID: 6186560689024371975, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Septal_wall_of_left_ventricle:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: 6204215210276383209, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Right_fibrous_trigone_of_heart:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: 6359077562250913901, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: First_posterior_ventricular_branch_of_right_coronary_artery:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6360906171166246546, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Septal_wall_of_left_ventricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510711802730969609, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle_internodal_tract:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593102935588005027, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Membranous_part_of_interventricular_septum_proper:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618244218722322919, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Posterior_semilunar_fibrous_scallop_of_pulmonary_valve_anulus:grp1
       objectReference: {fileID: 0}
     - target: {fileID: 6628220637417430752, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Lateral_wall_of_left_ventricle:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: 6662733936780065039, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Coronary_sinus:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7076027876419694959, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Atrioventricular_septum:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226663535524612433, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Trabecula_carnea_of_right_ventricle:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: 7230176210012062553, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Atrioventricular_node_branch_of_right_coronary_artery:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: 7248949483538230413, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Anterior_leaflet_of_tricuspid_valve:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416840597743057202, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Lateral_wall_of_left_atrium:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: 7512090457863128196, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Anterior_papillary_muscle_of_left_ventricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566474254945606245, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Septal_wall_of_left_ventricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649794947842632920, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Septal_wall_of_left_ventricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7724751729977060333, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Left_posterior_semilunar_fibrous_scallop_of_aortic_valve_anulus:grp1
       objectReference: {fileID: 0}
     - target: {fileID: 7808640209716256030, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
@@ -4722,20 +5062,70 @@ PrefabInstance:
       propertyPath: m_Name
       value: Septal_wall_of_left_ventricle:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: 8096438140582826476, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Free_wall_of_left_ventricle:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: 8190574937162433912, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Triangle_of_sinu_atrial_node:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8191845206207206074, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Septal_wall_of_left_atrium:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8202113570366828117, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Anterior_wall_proper_of_right_atrium:grp1
       objectReference: {fileID: 0}
     - target: {fileID: 8269358762595971142, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Trunk_of_anterior_interventricular_branch_of_left_coronary_artery:grp1
       objectReference: {fileID: 0}
+    - target: {fileID: 8451431963693077069, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Free_wall_of_left_ventricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8459748906796689326, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Septal_wall_of_left_ventricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8512187363347724887, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Posterior_leaflet_of_tricuspid_valve:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760158028389399671, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Septal_wall_of_right_atrium:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810186874351990177, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Anterior_leaflet_of_tricuspid_valve:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: 8822176815390692054, guid: fe63ea801abd00048869747eb0d226ea,
         type: 3}
       propertyPath: m_Name
       value: Septal_wall_of_left_ventricle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8999644540732866259, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Septal_division_of_left_branch_of_atrioventricular_bundle:grp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9094480206821949382, guid: fe63ea801abd00048869747eb0d226ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Septomarginal_trabecula:grp1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe63ea801abd00048869747eb0d226ea, type: 3}

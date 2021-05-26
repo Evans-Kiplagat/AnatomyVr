@@ -2060,6 +2060,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 336d6a48874486349a54ff5e4721608f, type: 2}
+    - target: {fileID: -7456603269762434374, guid: 31b88a9a4303614448d68fd03c9be29d,
+        type: 3}
+      propertyPath: m_Name
+      value: Right_calcaneus:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: -7385225193403748403, guid: 31b88a9a4303614448d68fd03c9be29d,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2275,6 +2280,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 336d6a48874486349a54ff5e4721608f, type: 2}
+    - target: {fileID: -1601958917835605872, guid: 31b88a9a4303614448d68fd03c9be29d,
+        type: 3}
+      propertyPath: m_Name
+      value: Right_second_metatarsal_bone:grp1
+      objectReference: {fileID: 0}
     - target: {fileID: -1568250187032957308, guid: 31b88a9a4303614448d68fd03c9be29d,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
