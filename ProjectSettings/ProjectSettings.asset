@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: Trial-T
+  companyName: ZucaSolution
+  productName: ThreeDAnatomyVisual
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -39,8 +39,23 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
-  m_VirtualRealitySplashScreen: {fileID: 0}
+  m_SplashScreenLogos:
+  - logo: {fileID: 21300000, guid: 949f5defa819bb445802bdd70fa61e2d, type: 3}
+    duration: 2
+  - logo: {fileID: 21300000, guid: fdc08fa079d44bc45912306af067b5b8, type: 3}
+    duration: 2
+  - logo: {fileID: 21300000, guid: 2385279aad1717b409703fb1f4089ec8, type: 3}
+    duration: 2
+  - logo: {fileID: 21300000, guid: 688d5606d03220540bf533ea82d968ac, type: 3}
+    duration: 2
+  - logo: {fileID: 21300000, guid: 90d75a094198f0d4b819b4ea9dcc5a1b, type: 3}
+    duration: 2
+  - logo: {fileID: 21300000, guid: 5bb1e96254d39864493dccbb8f28033b, type: 3}
+    duration: 2
+  - logo: {fileID: 21300000, guid: b0098e5da3146f843b3436f9127cb66f, type: 3}
+    duration: 2
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 949f5defa819bb445802bdd70fa61e2d,
+    type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
@@ -257,7 +272,7 @@ PlayerSettings:
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
-  androidSplashScreen: {fileID: 0}
+  androidSplashScreen: {fileID: 2800000, guid: 90d75a094198f0d4b819b4ea9dcc5a1b, type: 3}
   AndroidKeystoreName: '{dedicated}: Desktop/user.keystore'
   AndroidKeyaliasName: vr
   AndroidBuildApkPerCpuArchitecture: 0
@@ -275,7 +290,14 @@ PlayerSettings:
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
   resolutionDialogBanner: {fileID: 0}
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 90d75a094198f0d4b819b4ea9dcc5a1b, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: Android
     m_Icons:
@@ -655,7 +677,8 @@ PlayerSettings:
   webGLWasmStreaming: 0
   scriptingDefineSymbols: {}
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    Android: 0
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
